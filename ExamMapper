@@ -1,0 +1,12 @@
+package com.jsoftech.module.student.score.mapper;
+
+import com.jsoftech.core.mapper.CoreMapper;
+import com.jsoftech.module.student.score.entity.Exam;
+import org.springframework.stereotype.Component;
+
+/**
+ * 考试 mapper
+ */
+@Component
+public interface ExamMapper extends CoreMapper<Exam> {
+}
